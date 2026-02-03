@@ -1,0 +1,17 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: notification-system
+  datasource:
+    # duup
+    drive-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432:/coursesdb
+    user: jlozanof
+    password: Ganando10k
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database: postgresql
+    dialect: org.hibernate.dialect.PostgreSQLDialect
+
