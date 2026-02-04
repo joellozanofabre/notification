@@ -1,7 +1,6 @@
 package com.notifications.notification.notification.domain.enums;
 
-public enum NotificationStatus {
-    CREATED,
+public enum DeliveryStatus {
     SENT,
-    FAILED
+    FAILED;
 }
